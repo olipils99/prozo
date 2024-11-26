@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000022;
+}
+
+.header {
+    width: 1770px;
+    height: 85px;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#logodiv {
+    margin-right: auto;
+}
+#logo {
+    width: 66px; height: 63px;
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000022;
+    font-weight: 650;
+    font-size: 24px;
+}
+#account_button {
+    border-radius: 100px;
+    width: 185px;
+    height: 48px;
+    border-color: transparent;
+    background-color: #0025FF;
+}
+#account_button a {
+    color: white;
+}
+#title {
+    color: white;
+    font-size: 96px;
+    font-weight: 900;
+    margin-left: 85px;
+    margin-top: 128px;
+    margin-bottom: 0;
+}
+#title_paragraph {
+    color: white;
+    font-weight: 650;
+    font-size: 32px;
+    margin-top: 42px;
+    margin-left: 85px;
+}
+#title_button {
+    background-color: #0025FF;
+    border-radius: 100px;
+    font-size: 48px;
+    font-weight: 650;
+    border-color: transparent;
+    text-decoration: none;
+    width: 575px; height: 87px;
+    margin-top: 42px; margin-left: 85px;
+}
+#title_button a {
+    text-decoration: none;
+    color: white;
+}
+.button-blue {
+    background-color: #0025FF;
+    border-radius: 100px;
+    font-size: 48px;
+    font-weight: 650;
+    border-color: transparent;
+    text-decoration: none;
+    width: 310px;
+    height: 60px;
+    color: white;
+    padding-left: 20px; padding-right: 20px;
+}
+.button-blue a {
+    text-decoration: none;
+    color: white;
+}
+.button-outline {
+     border-color: #0025FF;
+     border-width: thick;
+     border-radius: 100px;
+     font-size: 48px;
+     font-weight: 650;
+     width: 310px;
+     height: 60px;
+     text-decoration: none;
+     color: white;
+     padding-left: 20px; padding-right: 20px;
+ }
+.button-outline a {
+    text-decoration: none;
+    color: #0025FF;
+}
+p {
+    font-size: 32px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.text\&logo h1 {
+    font-size: 85px;
+    color: #000022;
+}
+.text\&logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 320px;
+    background-color: white;
+}
+#logo2 {
+    width: 98px; height: 94px;
+    margin-left: 20px;
+}
+.paragraph_p2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 310px;
+    background-color: white;
+}
